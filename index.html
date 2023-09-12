@@ -10,12 +10,13 @@
     <div class="container">
       <header class="main-header">
         <h1 data-testid="slackUserName">Chibuike Ejimkonye</h1>
-        <img
-          class="pfp"
-          src="./slack_pfp.jpeg"
-          alt="img"
-          data-testid="slackDisplayImage"
-        />
+        <div id="img-container">
+          <img
+            src="img/slack_pfp.jpeg"
+            alt="img"
+            data-testid="slackDisplayImage"
+          />
+        </div>
       </header>
 
       <div class="data">
@@ -28,11 +29,15 @@
           <span data-testid="currentUTCTime"></span>
         </p>
         <p>
-          <strong>Track</strong>:<span data-testid="myTrack"> Frontend</span>
+          <strong>Track</strong>: <span data-testid="myTrack">Frontend</span>
         </p>
         <p>
           <strong>GitHub URL</strong>:
-          <a href="https://github.com/G-Primex/HNG-TASK-1" data-testid="githubURL">Github</a>
+          <a
+            href="https://github.com/G-Primex/HNG-TASK-1"
+            data-testid="githubURL"
+            >Github</a
+          >
         </p>
       </div>
     </div>
